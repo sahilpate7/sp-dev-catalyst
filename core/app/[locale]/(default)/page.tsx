@@ -1,3 +1,4 @@
+import Blogs from '~/components/custom/blogs';
 import { locales } from '~/i18n/locales';
 import { Page as MakeswiftPage } from '~/lib/makeswift';
 
@@ -16,5 +17,10 @@ interface Props {
 export default async function Home({ params }: Props) {
   const { locale } = await params;
 
-  return <MakeswiftPage locale={locale} path="/" />;
+  return (
+    <div>
+      <MakeswiftPage locale={locale} path="/" />
+      <Blogs numberOfBlogs={4} />
+    </div>
+  );
 }

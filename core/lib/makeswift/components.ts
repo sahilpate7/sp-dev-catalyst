@@ -15,3 +15,4 @@ import './components/site-theme/register';
 import './components/slideshow/register';
 import './components/sticky-sidebar/register';
 import './components/custom/about-us/register.makeswift';
+import './components/custom/featured-product/register.makeswift';
