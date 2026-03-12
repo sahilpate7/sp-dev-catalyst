@@ -74,6 +74,7 @@ Learn more about Catalyst at [catalyst.dev](https://catalyst.dev).
 ## Resources
 
 - [Catalyst Documentation](https://catalyst.dev/docs/)
+- [Project Structure Documentation](./STRUCTURE.md)
 - [GraphQL Storefront API Playground](https://developer.bigcommerce.com/graphql-storefront/playground)
 - [GraphQL Storefront API Explorer](https://developer.bigcommerce.com/graphql-storefront/explorer)
 - [BigCommerce DevDocs](https://developer.bigcommerce.com/docs/build)
